@@ -1,4 +1,5 @@
 import React, { useMemo, useState, useEffect } from "react";
+import profilePic from './assets/profile_picture.jpeg';
 import { motion } from "framer-motion";
 import {
   Github,
@@ -325,11 +326,13 @@ export default function Portfolio() {
             transition={{ duration: 0.4 }}
             className="flex-1 w-full"
           >
-            {/* Avatar placeholder */}
-            <div className="relative mx-auto aspect-square max-w-xs overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 shadow-lg">
-              <div className="absolute inset-0 grid place-items-center text-5xl font-black text-white/90 select-none">
-                ID
-              </div>
+            {/* Avatar image */}
+            <div className="relative mx-auto aspect-square max-w-xs overflow-hidden rounded-3xl shadow-lg">
+              <img
+                src={profilePic}
+                alt="Profile"
+                className="h-full w-full object-cover"
+              />
             </div>
           </motion.div>
         </section>

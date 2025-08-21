@@ -18,7 +18,7 @@ const profile = {
   name: "Naufal Rotif Dewanto",
   tagline: "Data and Machine Learning Enthusiast",
   summary:
-    "Data scientist with a passion for machine learning and data analysis. I love building models that solve real-world problems and sharing knowledge with the community.",
+    "A person with a passion for machine learning and data. I love building models that solve many problems with algorithm and sharing.",
   location: "Depok, Indonesia",
   email: "naufaldewanto37@gmail.com",
   resumeUrl: "https://drive.google.com/file/d/1yHStrZRCVqnwQMbKYO7HM4RwFWUDtHDt/view?usp=sharing",
@@ -342,7 +342,9 @@ export default function Portfolio() {
         {/* ABOUT */}
         <Section id="about" title="About">
           <p className="max-w-3xl leading-relaxed opacity-90">
-            I am a data scientist with a passion for machine learning and data analysis. I love building models that solve real-world problems and sharing knowledge with the community. My journey in data science has been driven by curiosity and a desire to make an impact through data-driven solutions.
+            I am a motivated Informatics Engineering graduate from the Sumatra Institute of Technology with strong foundations in machine learning, data science, and backend development. I have hands-on experience as a Backend Developer Intern at Diskominfo Kota Bandar Lampung, where I worked with Python and SQL to optimize web application functionality, and as a Data Analyst Intern at KitaLulus, where I focused on SQL queries, data cleansing, and visualization for business insights.
+
+My academic background includes research on feature selection for hate speech classification using Naive Bayes and PSO, reflecting my passion for natural language processing and applied machine learning. With a GPA of 3.42 and continuous exposure to real-world projects, I am eager to take on new challenges that allow me to sharpen my skills, collaborate with a great team, and contribute to impactful solutions.
           </p>
         </Section>
 

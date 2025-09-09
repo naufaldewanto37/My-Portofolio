@@ -65,6 +65,14 @@ export type Project = {
 
 const projects: Project[] = [
   {
+    title: "Chatbot",
+    subtitle: "Simple Chatbot",
+    tags: ["Machine Learning"],
+    description:
+      "A simple chatbot who can chatting and interaction and resarch a simple question",
+    repo: "https://github.com/naufaldewanto37/SimpleLLM",
+  },
+  {
     title: "Scoring Leads AI",
     subtitle: "AI-Powered Lead Scoring",
     tags: ["Machine Learning"],

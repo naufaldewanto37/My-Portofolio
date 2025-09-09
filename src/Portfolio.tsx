@@ -21,7 +21,7 @@ const profile = {
     "A person with a passion for machine learning and data. I love building models that solve many problems with algorithm and sharing.",
   location: "Depok, Indonesia",
   email: "naufaldewanto37@gmail.com",
-  resumeUrl: "https://drive.google.com/file/d/1yHStrZRCVqnwQMbKYO7HM4RwFWUDtHDt/view?usp=sharing",
+  resumeUrl: ".../public/Naufal_Rotif_Dewanto_CV.pdf",
 };
 
 const links = [
